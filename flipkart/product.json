@@ -1,0 +1,334 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "arun@gmail.com",
+      "password": "$2a$10$OnsgcDNA37RLf4PXYvFAo.dXzhHoi8uA16.2qxYWuqt30JKePnAHm",
+      "username": "arun",
+      "lastname": "Kumar",
+      "id": 7
+    },
+    {
+      "email": "arunx@gmail.com",
+      "password": "$2a$10$k5t5rxf53W9CM1woHQwZ7uNCSkOcoCLHznwRIExSgd0xd1kW4bXVq",
+      "username": "arun",
+      "lastname": "Kumar",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "kiranx@gmail.com",
+      "password": "$2a$10$pfn.LmSzsHTj/ToCjphSU.cqkXsPTpSuIUgzi9/ahJDQg7bIjZqyW",
+      "username": "Kiran",
+      "lastname": "Kumar",
+      "type": "admin",
+      "id": 9
+    },
+    {
+      "email": "bhargavvvkumar2001@gmail.com",
+      "password": "$2a$10$qICe/LJh2zeBAoIewAozfu5HkVrtIQv0zla0DSc9LGpDTuCRER03u",
+      "username": "bhargav",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "bhargav@gmail.com",
+      "password": "$2a$10$VOxTUs8kdV46u/Cjis7wVerzoenURdbzdEyofrKPVzp1sox3.yxgq",
+      "username": "ram ",
+      "type": "user",
+      "id": 11
+    },
+    {
+      "email": "bhargavkum@gmail.com",
+      "password": "$2a$10$7KfCicopWZNjgb37wQA1Reusf2uhKh655FcZiob4pqUlGdabGkb/.",
+      "username": "ramkumar",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "bhargavvvkumar123@gmail.com",
+      "password": "$2a$10$icD0SA.kIPE/VsTz4smMlOeRKUETq43EUDjASId2dI52dMkRvYODK",
+      "username": "user123",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "madhan123@gmail.com",
+      "password": "$2a$10$R2zbE8b1Gp7UiRuY.2m19uCADgvhmTkkAPSdoc9ZlN8UGtAGBfomy",
+      "username": "madhan",
+      "type": "user",
+      "id": 14
+    },
+    {
+      "email": "chida@gmail.com",
+      "password": "$2a$10$W5VoT9ZJK0HDg.I3/Nj0WOQCagNc9cvwhXbJOsL2ot2js7fTsLARO",
+      "username": "chida",
+      "type": "user",
+      "id": 15
+    },
+    {
+      "email": "bhargav23@gmail.com",
+      "password": "$2a$10$Hhl9P2s62M5MmTw5I8KmnO0MC/LdUMTKQqLc1mMwb776bHDocIvsi",
+      "username": "bhargav",
+      "type": "user",
+      "id": 16
+    },
+    {
+      "email": "bhargav123@gmail.com",
+      "password": "$2a$10$nhGQKb74k6RZR/Xs3xH4reJOmfYkwjb6pWpHnK.pbYSzMvwiVFuDq",
+      "username": "bhargav8004",
+      "type": "admin",
+      "id": 17
+    },
+    {
+      "email": "bhargav1@gmail.com",
+      "password": "$2a$10$E/WTqj7FH8m.x1t6WPc7n.vg56nc2a/H9Elek6pvD39VVpqVf0Vh6",
+      "username": "bhargav54",
+      "type": "user",
+      "id": 18
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$hRC/GlORoUs84axZegOfs.I8kflhr9.rEiRczfQ8nkokAYpJvLuCu",
+      "username": "admin1",
+      "type": "admin",
+      "id": 19
+    }
+  ],
+  "products": [
+    {
+      "title": "Samsung Galaxy S21",
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/w/t/r/-original-imaggj68cgtdacxn.jpeg?q=70",
+      "description": "The Samsung Galaxy S21 Ultra 5G is the ultimate smartphone. With a stunning 6.8-inch Dynamic AMOLED 2X display, 108MP camera, and 5G connectivity, it's the perfect device for power users and tech enthusiasts.",
+      "price": "11999",
+      "category":"mobiles",
+      "id": 1,
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+
+    },
+    {
+      "id": 2,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/e/c/x/m-mnt-7021-montrez-original-imag5hb96dcwrpmn-bb.jpeg?q=70",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://rukminim1.flixcart.com/image/612/612/kjlrb0w0-0/shirt/5/8/w/s-c754-black-dennis-lingo-original-imafz4xx5hvr3m3k.jpeg?q=70",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 4,
+      "title": "Gold-plated Plated Brass Chain Chain Bracelet",
+      "price": 695,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://rukminim1.flixcart.com/image/612/612/ks7tuvk0/necklace-chain/d/n/g/vb009-chain-woxen-original-imag5tuv9ust5dau.jpeg?q=70",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 5,
+      "title": "BAJAJ 20 L Grill Microwave Oven",
+      "price": 168,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "electronics",
+      "image": "https://rukminim1.flixcart.com/image/312/312/kv1a4cw0/microwave-new/r/q/d/1701mt-bajaj-original-imag8yqnhyjgmgqb.jpeg?q=70",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 6,
+      "title": "PAPILON Colorful Lord Ganesha Murti, Perfect White Marble Gold Plated",
+      "price": 9.99,
+      "description": "Multi colored culture marble murals with incomparable 24 karat gold plating, embellished with american diamonds and high quality colored gems and pearls.",
+      "category": "jewelery",
+      "image": "https://rukminim1.flixcart.com/image/612/612/showpiece-figurine/f/a/5/hand-made-gold-plated-hindu-lord-ganesh-ji-statue-spiritual-original-imaegcraqeufcp2z.jpeg?q=70",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 7,
+      "title": "iPhone 13 Pro Max",
+      "price": 1099,
+      "description": "The iPhone 13 Pro Max features a 6.7-inch Super Retina XDR display, ProMotion technology, A15 Bionic chip, 5G, triple-camera system with 12MP Ultra Wide, Wide, and Telephoto cameras, and more.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/c/g/4/iphone-13-pro-max-mlll3hn-a-apple-original-imag6vpg3r7dyvhm.jpeg?q=70",
+      "rating": {
+        "rate": 4.8,
+        "count": 500
+      }
+    },
+    {
+      "id": 8,
+      "title": "Apple MacBook Air with Apple M1 Chip",
+      "price": 999,
+      "description": "Apple-designed M1 chip for a giant leap in CPU, GPU, and machine learning performance.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/832/832/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70",
+      "rating": {
+        "rate": 4.5,
+        "count": 300
+      }
+    },
+    {
+      "id": 9,
+      "title": "Apple iPad Pro (2021)",
+      "price": 1099,
+      "description": "The ultimate iPad experience with 12.9-inch Liquid Retina XDR display, Apple M1 chip, and 5G cellular connectivity.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/tablet/r/v/e/-original-imagj72vv3gydgem.jpeg?q=70",
+      "rating": {
+        "rate": 4.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 10,
+      "title": "Apple iPhone 12 Mini",
+      "price": 699,
+      "description": "The smallest, thinnest, and lightest 5G phone, with A14 Bionic chip and Super Retina XDR display.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwkfrerak.jpeg?q=70",
+      "rating": {
+        "rate": 4.7,
+        "count": 200
+      }
+    },
+    {
+      "id": 11,
+      "title": "Apple Watch Series 6",
+      "price": 399,
+      "description": "Measure your blood oxygen level with a revolutionary new sensor and app. Take ECG anytime, anywhere.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/612/612/kfeamq80/smartwatch/p/z/n/ios-m00d3hn-a-apple-original-imafvvgfmxhyzuh3.jpeg?q=70",
+      "rating": {
+        "rate": 4.8,
+        "count": 150
+      }
+    },
+    {
+      "id": 12,
+      "title": "Apple AirPods Pro",
+      "price": 249,
+      "description": "Active Noise Cancellation for immersive sound. Transparency mode for hearing and connecting with the world around you.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/headphone/s/t/m/-original-imaghxgnjdgyghfw.jpeg?q=70",
+      "rating": {
+        "rate": 4.6,
+        "count": 500
+      }
+    },
+    {
+      "id": 13,
+      "title": "Apple Magic Keyboard",
+      "price": 99,
+      "description": "The Magic Keyboard combines a sleek design with a built-in rechargeable battery and enhanced key features.",
+      "category": "mobiles",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/keyboard/tablet-keyboard/9/u/e/bk100-dual-connect-bluetooth-wireless-keyboard-for-ios-android-original-imaghkqgnvrcm6xr.jpeg?q=70",
+      "rating": {
+        "rate": 4.2,
+        "count": 50
+      }
+    },
+    {
+      "id": 14,
+      "title": "Fortune Sunlite Refined Sunflower Oil Can  (5 L)",
+      "price": 99,
+      "description": "Flipkart endeavors to ensure the accuracy of the information about the products. It is pertinent to note that, actual product packaging and materials may contain more and/or different information which may include nutritional.",
+      "category": "grocery",
+      "image": "https://rukminim1.flixcart.com/image/832/832/kflftzk0hlty2aw-0/edible-oil/2/m/z/sunlite-refined-can-sunflower-oil-fortune-original-imafw37vp5mntzzh.jpeg?q=70",
+      "rating": {
+        "rate": 4.2,
+        "count": 50
+      }
+    },
+    {
+      "id": 15,
+      "title": "Tata Sampann Yellow Moong Dal (Split) ",
+      "price": 91,
+      "description": "Cook a lip-smacking curry or experiment with a range of homemade dal recipes by bringing home the protein-rich Tata Sampann moong dal (Split).",
+      "category": "grocery",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/pulses/n/m/7/-original-imagm6xfnwfgfzhe.jpeg?q=70",
+      "rating": {
+        "rate": 4.2,
+        "count": 55
+      }
+    },
+    {
+      "id": 16,
+      "title": "SAMSUNG 80 cm (32 Inch) HD Ready LED Smart Tizen TV",
+      "price": 699,
+      "description": "With this Samsung TV, every image on the screen comes to life, giving you a home theatre experience. With the HD visual quality of this TV,",
+      "category": "appliances",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/television/m/n/p/-original-imagkzctc2gkvfgf.jpeg?q=70",
+      "rating": {
+        "rate": 4.2,
+        "count": 50
+      }
+    },
+    {
+      "id": 17,
+      "title": "SAMSUNG 7 kg Diamond Drum feature Fully Automatic Top Load Washing Machine",
+      "price": 1699,
+      "description": "bring home the Samsung washing machine that features the Centre Jet technology. This technology generates streams of water from the centre of the pulsator to prevent ",
+      "category": "appliances",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/washing-machine-new/l/n/p/-original-imagpfu3f6rgc4nt.jpeg?q=70",
+      "rating": {
+        "rate": 4.2,
+        "count": 30
+      }
+    }
+  ]
+}
