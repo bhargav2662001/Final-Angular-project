@@ -1,12 +1,11 @@
 <div class="side-nav-content">
-    <!-- <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" id="darkSwitch">
-        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-      </div> -->
-      <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" id="darkSwitch" (change)="toggleMode($event)">
-        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+    
+      <div class="custom-control custom-switch" style="padding-left:16px;">
+        <input  type="checkbox" class="custom-control-input" id="darkSwitch" (change)="toggleMode($event)">
+        <label style="padding-left:20px" class="custom-control-label" for="darkSwitch">Dark Mode</label>
       </div>
+
+
       
     <ul class="nav-list" [ngClass]="{'nav-list-open':sideNavStatus}">
         <li class="nav-list-items" 

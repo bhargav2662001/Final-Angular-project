@@ -54,6 +54,6 @@ toggleMode(event: any): void {
   else{
     document.body.setAttribute('data-theme', 'light');
   }
-    // Additional logic or actions related to dark mode or light mode
+  
   }
 }

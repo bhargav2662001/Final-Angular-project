@@ -20,4 +20,5 @@ export class HeaderComponent implements OnInit{
     // Add your logout logic here
     console.log('Logout button clicked');
   }
+  
 }
