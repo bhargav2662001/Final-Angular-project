@@ -46,4 +46,14 @@ constructor(){}
 ngOnInit():void{
 
 }
+toggleMode(event: any): void {
+  let checked:any = event.target.checked;
+  if(checked){
+    document.body.setAttribute('data-theme', 'dark');
+  }
+  else{
+    document.body.setAttribute('data-theme', 'light');
+  }
+    // Additional logic or actions related to dark mode or light mode
+  }
 }
