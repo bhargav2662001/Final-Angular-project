@@ -1,4 +1,4 @@
-<div class="side-nav-content">
+<!-- <div class="side-nav-content">
     
       <div class="custom-control custom-switch" style="padding-left:16px;">
         <input  type="checkbox" class="custom-control-input" id="darkSwitch" (change)="toggleMode($event)">
@@ -23,4 +23,35 @@
     <img src="../../assets/normal_4e31334a0a30a862-removebg-preview.png" style="height:
     35px; width: 35px;">
     Version 1.0
+  </div> -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="side-nav-content">
+          <div class="custom-control custom-switch" style="padding-left: 16px;">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" (change)="toggleMode($event)">
+            <label class="custom-control-label" for="darkSwitch" style="padding-left: 20px;">Dark Mode</label>
+          </div>
+  
+          <ul class="nav-list" [ngClass]="{'nav-list-open': sideNavStatus}">
+            <li class="nav-list-items" *ngFor="let item of list">
+              <i class="{{ item.icon }}"></i>
+              <span>
+                <a href="#">{{ item.name }}</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="col-md-6">
+        <div class="ver">
+          <img src="../../assets/normal_4e31334a0a30a862-removebg-preview.png" class="version-image">
+          Version 1.0
+        </div>
+      </div>
+    </div>
   </div>
+  
