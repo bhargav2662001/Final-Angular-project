@@ -13,12 +13,17 @@ nav{
     border-radius: 20px;
 }
 .logout{
-    margin-left: 75%;
     cursor: pointer;     
+    float: left;
+    margin-right: 20px;
 }
 .backhead{
     background-color: rgb(50, 122, 169);  
 } 
+.navbar-brand{
+    width: 95%;
+}
+
 
 
 
