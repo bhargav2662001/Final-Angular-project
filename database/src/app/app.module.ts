@@ -5,23 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
-import { MydetailsComponent } from './mydetails/mydetails.component';
-import { MyteamComponent } from './myteam/myteam.component';
-import { AddnewComponent } from './addnew/addnew.component';
-import { EditdetailsComponent } from './editdetails/editdetails.component';
-import { SearchComponent } from './search/search.component';
+
+
+import { AdminComponent } from './admin/admin.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     HeaderComponent,
     SideNavComponent,
-    MydetailsComponent,
-    MyteamComponent,
-    AddnewComponent,
-    EditdetailsComponent,
-    SearchComponent,
-  ],
+    AdminComponent,
+      LoginComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule

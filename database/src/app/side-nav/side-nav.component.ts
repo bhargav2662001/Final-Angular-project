@@ -1,4 +1,4 @@
-import { Component ,Input,OnInit} from '@angular/core';
+import { AfterViewInit, Component ,Input,OnInit} from '@angular/core';
 
 
 @Component({
@@ -6,7 +6,7 @@ import { Component ,Input,OnInit} from '@angular/core';
   templateUrl: './side-nav.component.html',
   styleUrls: ['./side-nav.component.css']
 })
-export class SideNavComponent implements OnInit {
+export class SideNavComponent implements OnInit,AfterViewInit {
 @Input() sideNavStatus:boolean=false;
   list=[
   {
@@ -45,7 +45,24 @@ constructor(){}
 
 ngOnInit():void{
 
+    
+
 }
+
+ngAfterViewInit(): void {
+  var bootstrap: any;
+
+  setTimeout(()=>{
+
+    // Bootstrap tooltip initialization
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })    
+  },2000)
+}
+
+
 toggleMode(event: any): void {
   let checked:any = event.target.checked;
   if(checked){
