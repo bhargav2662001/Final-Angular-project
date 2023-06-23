@@ -1,0 +1,51 @@
+
+/* [data-theme="dark"] {
+    background-color: #fff8f8 !important;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #fffefe !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: light rgb(255, 235, 235) !important;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #858181 !important;
+}
+
+[data-theme="light"] {
+    background-color: #858181 !important;
+    color: #858181;
+}
+
+[data-theme="light"] .bg-light {
+    background-color: #858181 !important;
+}
+
+[data-theme="light"] .bg-white {
+    background-color: #858181 !important;
+} 
+
+[data-theme="light"] .bg-black {
+    background-color: #858181 !important;
+} */
+
+[data-theme="light"] app-side-nav {
+    background-color: rgb(50,122,169) !important;
+}
+
+[data-theme="dark"] app-side-nav {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+[data-theme="light"] .backhead {
+    background-color: rgb(50,122,169) !important;
+}
+
+[data-theme="dark"] .backhead {
+    background-color: rgb(0, 0, 0) !important;
+}
+
