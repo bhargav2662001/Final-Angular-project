@@ -1,0 +1,74 @@
+<section class="bodyBGAlign">
+
+<div class="container">
+    <mat-card>
+        <div *ngIf="logform">
+          <table id="log-table">
+            <tr>
+              <th>Email</th>
+              <td><mat-form-field appearance="outline">
+                  <input matInput type="text" [(ngModel)]="email">
+                </mat-form-field></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><mat-form-field appearance="outline">
+                  <input matInput type="password" [(ngModel)]="password">
+                </mat-form-field></td>
+            </tr>
+            <tr>
+              <td colspan=2 style="text-align:center">
+                <button mat-raised-button color="primary" (click)="login()">Login</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan=2 style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+            </tr>
+          </table>
+        
+        </div>
+      
+        <div *ngIf="!logform">
+          <table id="log-table">
+            <tr>
+              <th>Username</th>
+              <td><mat-form-field appearance="outline">
+                  <input matInput type="text" [(ngModel)]="rusername">
+                </mat-form-field></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><mat-form-field appearance="outline">
+                  <input matInput type="password" [(ngModel)]="rpassword">
+                </mat-form-field></td>
+            </tr>
+      
+            <tr>
+              <th>Verify Password</th>
+              <td><mat-form-field appearance="outline">
+                  <input matInput type="password" [(ngModel)]="vpassword">
+                </mat-form-field></td>
+            </tr>
+      
+            <tr>
+              <th>Email</th>
+              <td><mat-form-field appearance="outline">
+                  <input matInput type="text" [(ngModel)]="remail">
+                </mat-form-field></td>
+            </tr>
+            <tr>
+              <td colspan=2 style="text-align:center">
+                <button mat-raised-button color="primary" (click)="register()">Register</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan=2 style="text-align:center; color: lightgreen" (click)="toggle()">Already registered? Click here to login</td>
+            </tr>
+            
+          </table>
+        </div>
+      </mat-card>
+    </div> 
+
+  </section>
+     

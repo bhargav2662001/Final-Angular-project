@@ -1,0 +1,15 @@
+<div class="box" [ngClass]="doctor ? 'classname' : ''" (click)="onTotalDoctorsClick($event)">
+        <mat-icon>person</mat-icon>
+        <h2>Total Doctors</h2>
+        <p>100</p>
+    </div>
+    <div class="pa" (click)="onTotalPatientsClick()">
+        <mat-icon>people</mat-icon>
+        <h2>Total Patients</h2>
+        <p>500</p>
+    </div>
+    <div class="a" (click)="onTotalAppointmentsClick()">
+        <mat-icon>event</mat-icon>
+        <h2>Total Appointments</h2>
+        <p>1000</p>
+    </div> 

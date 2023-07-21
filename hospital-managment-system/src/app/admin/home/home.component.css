@@ -1,0 +1,145 @@
+mat-toolbar{
+    background-color: blue;
+    color: white;
+
+}
+.logout{
+    margin-left:900px;
+}
+mat-sidenav{
+    margin:16px;
+    width:200px;
+    border-right: none;
+    background: rgb(12, 145, 212);
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align:center;
+}
+
+.content{
+    height:calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: lightgray;
+    border-radius: 10px;
+}
+mat-sidenav-container{
+    height:calc(100vh - 65px);
+    
+}
+.menu-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+    
+}
+.name {
+    margin: 0;
+    margin-top: 8px;
+    font-weight: normal;
+    
+   
+}
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+mat-icon {
+margin-right: 8px;
+}
+.avatar {
+    border-radius: 50%;
+    width: 90%;
+    height: 30%;
+
+    
+    
+}
+.classname :hover{
+    color: green;
+}
+.box {
+    cursor: pointer;
+    width: 250px;
+    height: 100px;
+    background-color: #ee0909;
+    border: 1px solid #fafafa;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 250px;
+    margin-right: 30px;
+  }
+  
+  .box h2 {
+    margin-top: 0;
+  }
+  
+  .box p {
+    font-size: 24px;
+  }
+  .pa {
+    width: 250px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid #f6f2f2;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 250px;
+    margin-right: 30px;
+  }
+  
+  .pa h2 {
+    margin-top: 0;
+  }
+  
+  .pa p {
+    font-size: 24px;
+  }
+
+  .a {
+    width: 250px;
+    height: 100px;
+    background-color:blue;
+    border: 1px solid #fffcfc;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 250px;
+    
+  }
+  
+  .a h2 {
+    margin-top: 0;
+  }
+  
+  .a p {
+    font-size: 24px;
+  }
+  
+  
+  
+.content{
+    height:calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: lightgray;
+    border-radius: 10px;
+}

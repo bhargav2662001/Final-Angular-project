@@ -1,0 +1,57 @@
+<mat-toolbar>
+
+    HOSPITAL MANAGEMENT
+
+    <div class="logout">
+
+        <button (click)="logout()">Logout</button>
+
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened>
+
+        <img class="avatar mat-elevation-z8 "
+            src="https://w0.peakpx.com/wallpaper/142/298/HD-wallpaper-ntr-cbn-chandrababu-chandrababu-naidu-jagan-lokesh-pawan-kalyan-ysr-thumbnail.jpg" />
+
+        <h4 class="name">ADMIN</h4>
+
+
+
+        <button mat-button class="menu-button" [routerLink]="'/admin/home'">
+            <mat-icon>dashboard</mat-icon>
+            <span> Dashboard</span>
+        </button>
+
+        <button mat-button class="menu-button" [routerLink]="'/admin/home/doctor-segment'">
+            <mat-icon>local_hospital</mat-icon>
+            <span> Doctor</span>
+        </button>
+
+        <button mat-button class="menu-button"[routerLink]="'/admin/home/patient'">
+            <mat-icon>person</mat-icon>
+            <span> Patient </span>
+        </button>
+
+        <button mat-button class="menu-button"[routerLink]="'/admin/home/appointments'">
+            <mat-icon>date_range</mat-icon>
+            <span> Appointment</span>
+        </button>
+
+        <mat-divider> </mat-divider>
+        <button mat-button class="menu-button"[routerLink]="'/admin/home/help'">
+            <mat-icon>help</mat-icon>
+            <span>HELP</span>
+        </button>
+    </mat-sidenav>
+
+    <mat-sidenav-container>
+
+        <div class="content mat-elevation-z4">
+        <router-outlet></router-outlet>
+        </div>
+
+    </mat-sidenav-container>
+
+</mat-sidenav-container>

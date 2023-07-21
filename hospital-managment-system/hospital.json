@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "arun@gmail.com",
+      "password": "$2a$10$OnsgcDNA37RLf4PXYvFAo.dXzhHoi8uA16.2qxYWuqt30JKePnAHm",
+      "username": "arun",
+      "lastname": "Kumar",
+      "id": 7
+    },
+    {
+      "email": "arunx@gmail.com",
+      "password": "$2a$10$k5t5rxf53W9CM1woHQwZ7uNCSkOcoCLHznwRIExSgd0xd1kW4bXVq",
+      "username": "arun",
+      "lastname": "Kumar",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "kiranx@gmail.com",
+      "password": "$2a$10$pfn.LmSzsHTj/ToCjphSU.cqkXsPTpSuIUgzi9/ahJDQg7bIjZqyW",
+      "username": "Kiran",
+      "lastname": "Kumar",
+      "type": "admin",
+      "id": 9
+    },
+    {
+      "email": "bhargavvvkumar2001@gmail.com",
+      "password": "$2a$10$qICe/LJh2zeBAoIewAozfu5HkVrtIQv0zla0DSc9LGpDTuCRER03u",
+      "username": "bhargav",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "bhargav@gmail.com",
+      "password": "$2a$10$VOxTUs8kdV46u/Cjis7wVerzoenURdbzdEyofrKPVzp1sox3.yxgq",
+      "username": "ram ",
+      "type": "user",
+      "id": 11
+    },
+    {
+      "email": "bhargavkum@gmail.com",
+      "password": "$2a$10$7KfCicopWZNjgb37wQA1Reusf2uhKh655FcZiob4pqUlGdabGkb/.",
+      "username": "ramkumar",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "bhargavvvkumar123@gmail.com",
+      "password": "$2a$10$icD0SA.kIPE/VsTz4smMlOeRKUETq43EUDjASId2dI52dMkRvYODK",
+      "username": "user123",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "madhan123@gmail.com",
+      "password": "$2a$10$R2zbE8b1Gp7UiRuY.2m19uCADgvhmTkkAPSdoc9ZlN8UGtAGBfomy",
+      "username": "madhan",
+      "type": "user",
+      "id": 14
+    },
+    {
+      "email": "chida@gmail.com",
+      "password": "$2a$10$W5VoT9ZJK0HDg.I3/Nj0WOQCagNc9cvwhXbJOsL2ot2js7fTsLARO",
+      "username": "chida",
+      "type": "user",
+      "id": 15
+    },
+    {
+      "email": "bhargav23@gmail.com",
+      "password": "$2a$10$Hhl9P2s62M5MmTw5I8KmnO0MC/LdUMTKQqLc1mMwb776bHDocIvsi",
+      "username": "bhargav",
+      "type": "user",
+      "id": 16
+    },
+    {
+      "email": "bhargav123@gmail.com",
+      "password": "$2a$10$nhGQKb74k6RZR/Xs3xH4reJOmfYkwjb6pWpHnK.pbYSzMvwiVFuDq",
+      "username": "bhargav8004",
+      "type": "admin",
+      "id": 17
+    },
+    {
+      "email": "bhargav1@gmail.com",
+      "password": "$2a$10$E/WTqj7FH8m.x1t6WPc7n.vg56nc2a/H9Elek6pvD39VVpqVf0Vh6",
+      "username": "bhargav54",
+      "type": "user",
+      "id": 18
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$hRC/GlORoUs84axZegOfs.I8kflhr9.rEiRczfQ8nkokAYpJvLuCu",
+      "username": "admin1",
+      "type": "admin",
+      "id": 19
+    }
+  ]}
